@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-labelledby="title desc">
+  <title id="title">FieldForm bakery logo mark</title>
+  <desc id="desc">A golden scored bread loaf with a wheat stalk above it on a deep green badge</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#23463a"/>
+      <stop offset="1" stop-color="#132b22"/>
+    </linearGradient>
+    <linearGradient id="crust" x1="60" y1="54" x2="60" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3c983"/>
+      <stop offset=".55" stop-color="#d9964f"/>
+      <stop offset="1" stop-color="#b8733a"/>
+    </linearGradient>
+    <linearGradient id="wheat" x1="60" y1="12" x2="60" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2d58c"/>
+      <stop offset="1" stop-color="#e5bd67"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Badge -->
+  <rect x="2" y="2" width="116" height="116" rx="34" fill="url(#bg)"/>
+  <rect x="2.75" y="2.75" width="114.5" height="114.5" rx="33.25" fill="none" stroke="#fffdf8" stroke-opacity=".08" stroke-width="1.5"/>
+
+  <!-- Wheat stalk -->
+  <path d="M60 52 V20" fill="none" stroke="url(#wheat)" stroke-width="2.6" stroke-linecap="round"/>
+  <g fill="url(#wheat)">
+    <ellipse cx="60" cy="16" rx="3.2" ry="5.8"/>
+    <ellipse cx="55.2" cy="25" rx="3" ry="5.6" transform="rotate(-38 55.2 25)"/>
+    <ellipse cx="64.8" cy="25" rx="3" ry="5.6" transform="rotate(38 64.8 25)"/>
+    <ellipse cx="55.2" cy="33.5" rx="3" ry="5.6" transform="rotate(-38 55.2 33.5)"/>
+    <ellipse cx="64.8" cy="33.5" rx="3" ry="5.6" transform="rotate(38 64.8 33.5)"/>
+    <ellipse cx="55.2" cy="42" rx="3" ry="5.6" transform="rotate(-38 55.2 42)"/>
+    <ellipse cx="64.8" cy="42" rx="3" ry="5.6" transform="rotate(38 64.8 42)"/>
+  </g>
+
+  <!-- Bread loaf -->
+  <path d="M22 77 C22 62 39 54 60 54 C81 54 98 62 98 77 C98 87 87 91 60 91 C33 91 22 87 22 77 Z" fill="url(#crust)"/>
+  <!-- Crust highlight -->
+  <path d="M32 66 C38 60 48 57.5 60 57.5" fill="none" stroke="#fff3d6" stroke-opacity=".45" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- Score marks -->
+  <g fill="none" stroke="#fff3d6" stroke-width="3.6" stroke-linecap="round">
+    <path d="M37 76 Q43 68 51 65"/>
+    <path d="M52 80 Q59 71 68 67.5"/>
+    <path d="M68 82 Q75 74 84 71"/>
+  </g>
+
+  <!-- Board / table line -->
+  <path d="M30 101 H90" fill="none" stroke="#d7ef67" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="98" cy="101" r="2.6" fill="#ef8f70"/>
+</svg>
